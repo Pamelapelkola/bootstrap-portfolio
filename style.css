@@ -8,87 +8,48 @@ body {
     overflow: hidden;
     height: 100%;
 }
-.brand-logo{
+
+.brand-logo {
     margin-left: 17%;
     background-color: #4aaaa5;
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-.menu{
+
+.menu {
     margin-left: 60%;
 }
-li{
+
+li {
     color: #4aaaa5 !important;
 }
-.colorcontainer{
+
+.colorcontainer {
     border-color: #cccccc;
     border-width: 3px;
     border-style: solid;
 }
-.header{
+
+.header {
     color: #4aaaa5 !important;
-    background-color:none;
+    background-color: none;
     font-size: 36px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 10px;
 }
-.card-heading{
+
+.card-heading {
     color: #4aaaa5 !important;
-    background-color:none;
+    background-color: none;
     font-size: 36px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 72px;
+    text-align: center;
 }
-.card{
-    padding-top:-20px;
-} */
-/* .card-content{
-    margin-top: -18px;
+
+.card {
+    padding-top: -20px;
 }
-/* .navbar-brand {
-    background-color: #4aaaa5;
-    color: #ffffff !important;
-    width: 250px;
-    line-height: 0px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 0;
-} */
-
-/* .collapse {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    padding-top: 0px;
-    position: inline;
-    right: 0;
-    display: inline-block;
-} */
-
-/* .navbar-static-top {
-    position: absolute;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    border-width: 3px;
-    border-style: solid;
-    padding-top: 0px;
-    top: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0 px;
-    border-top: 0px;
-    width: 100%;
-    margin-bottom: 0px;
-    line-height: 80px;
-} */
-
-/* li {
-    content: ' ';
-    border-right: 2px solid #777777;
-    margin-top: 10px;
-    margin-bottom: 10px;
-} */
 
 .panel {
     background-color: white;
@@ -101,29 +62,11 @@ li{
     font-size: 36px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-/* 
-.panel-heading:after {
-    border: 2px solid #777777;
-} */
 
-/* img{
-    display:inline-block;
-    padding: 25px;
-} */
-
-/* 
-#portfolio{
-    display:inline-block;
-    margin-top:120px;
-    block-size:100%;
-    padding-left:100px;
-    padding-right:100px;
-} */
-
- .hangman {
-    background-color:#4aaaa5;
-    color:#ffffff;
-    width:80px;
+.liri {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
     border: 1px solid #ccc;
     font-size: 20px;
     bottom: 0px;
@@ -131,14 +74,14 @@ li{
     right: 0px;
     text-align: center;
     text-transform: uppercase;
-    top:0;
-    left:0; 
+    top: 0;
+    left: 0;
 }
 
 .rock {
-     background-color:#4aaaa5;
-    color:#ffffff;
-    width:80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
     border: 1px solid #ccc;
     font-size: 20px;
     bottom: 0px;
@@ -146,14 +89,14 @@ li{
     right: 0px;
     text-align: center;
     text-transform: uppercase;
-    top:0;
-    left:0; 
+    top: 0;
+    left: 0;
 }
 
 .rpg {
-    background-color:#4aaaa5;
-    color:#ffffff;
-    width:80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
     border: 1px solid #ccc;
     font-size: 20px;
     bottom: 0px;
@@ -161,14 +104,14 @@ li{
     right: 0px;
     text-align: center;
     text-transform: uppercase;
-    top:0;
-    left:0; 
+    top: 0;
+    left: 0;
 }
 
 .rutgers {
-    background-color:#4aaaa5;
-    color:#ffffff;
-    width:80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
     border: 1px solid #ccc;
     font-size: 20px;
     bottom: 0px;
@@ -176,14 +119,14 @@ li{
     right: 0px;
     text-align: center;
     text-transform: uppercase;
-    top:0;
-    left:0; 
+    top: 0;
+    left: 0;
 }
 
-.trivia{
-    background-color:#4aaaa5;
-    color:#ffffff;
-    width:80px;
+.trivia {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
     border: 1px solid #ccc;
     font-size: 20px;
     bottom: 0px;
@@ -191,8 +134,8 @@ li{
     right: 0px;
     text-align: center;
     text-transform: uppercase;
-    top:0;
-    left:0; 
+    top: 0;
+    left: 0;
 }
 
 h3 {
@@ -206,7 +149,9 @@ h3 {
     background-color: #4aaaa5;
     color: #ffffff;
 }
-
+#social{
+    margin-left: 20px;
+}
 .footer {
     margin-top: 90%;
     position: absolute;
@@ -219,3 +164,13 @@ h3 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
 }
+@media only screen and (max-width: 480px)  {
+
+    .card {
+  
+      display:block;
+  
+      width:100%;
+  
+    }
+  

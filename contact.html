@@ -5,91 +5,109 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <Title>Contact</Title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-            
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
 </head>
 
 <body>
-        <div class="colorcontainer">
-                <nav>
-                        <div class="nav-wrapper #e0e0e0 grey lighten-2">
-                          <div class="brand-logo">Pamela Pelkola</div>
-                          
-                          <ul id="nav-mobile" class="menu" class="right hide-on-med-and-down">
-                            <li><a class="active" href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                          </ul>
-                        
-                    </div>
-        
-                    </nav>
-    
-    <main class="container">
-        <div class="row">
-                <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-heading">Contact</div>
-                            <div id="form" class="card-content">
-           
-                    <div class="card-content">
-                        <form action="action_page">
+    <div class="colorcontainer">
+        <nav>
+            <div class="nav-wrapper #e0e0e0 grey lighten-2">
+                <a href="#" class="brand-logo">Pamela Pelkola</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
 
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your name..">
-                            <br>
-                            <br>
-
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="email" placeholder="Your email..">
-                            <br>
-                            <br>
-
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.."></textarea>
-
-                            <input id="submit" type="submit" value="Submit">
-
-                        </form>
-                    </div>
-                </div>
+            <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
             </div>
-                </div>
-            <div class="col s12 m6">
+        </nav>
+       
+
+        <main class="container">
+            <div class="row">
+                <div class="col s12 m6">
                     <div class="card">
+                        <div class="card-heading">Contact</div>
+                        <div id="form" class="card-content">
+                                <form action="form-to-email.php" method="post" name="myemailform" >
+
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name..">
+                                    <br>
+                                    <br>
+
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="Your email..">
+                                    <br>
+                                    <br>
+
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+                                    <a class="waves-effect waves-light btn" href="">button</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="col s12 m6">
+                    <div class="card medium">
                         <div class="card-heading">Connect</div>
                         <div id="social" class="card-content">
-                            <a href="https://stackoverflow.com/story/PamPelk">
-                                <img src=".\assets\if_1-04_2308535.png" alt="boximage" height="90" width="90">
+                            <a href="https://stackoverflow.com/users/9057301/pampelk">
+                                <img class="responsive-image" src=".\assets\if_1-04_2308535.png" alt="boximage" height="110" width="110">
                             </a>
-    
+
                             <a href="https://www.linkedin.com/in/pam-pelkola-154066121/">
-                                <img src=".\assets\if_1-08_2299376.png" alt "boximage" height="90" width="90">
+                                <img class="responsive-image" src=".\assets\if_1-08_2299376.png" alt "boximage" height="110" width="110">
                             </a>
-    
+
                             <a href="https://github.com/Pamelapelkola">
-                                <img src=".\assets\if_social_github_710296.png" alt="boximage" height="90" width="90">
+                                <img class="responsive-image" src=".\assets\if_social_github_710296.png" alt="boximage" height="110" width="110">
                             </a>
                         </div>
                     </div>
                 </div>
-                </div>
-    </main>
+            </div>
+        </main>
 
 
-    <footer class="footer navbar-fixed-bottom">
-        <p>Copyright 2018 Pamela Pelkola</p>
-    </footer>
-
+        <footer class="footer navbar-fixed-bottom">
+            <p>Copyright 2018 Pamela Pelkola</p>
+        </footer>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
 </body>
 
 </html>
