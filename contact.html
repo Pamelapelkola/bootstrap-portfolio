@@ -5,10 +5,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <Title>Contact</Title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -22,9 +22,9 @@
     <div class="colorcontainer">
         <nav>
             <div class="nav-wrapper #e0e0e0 grey lighten-2">
-                <a href="#" class="brand-logo">Pamela Pelkola</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"></i></a>
-                <ul class="right hide-on-med-and-down">
+                <div class="brand-logo">Pamela Pelkola</div>
+
+                <ul id="nav-mobile" class="menu" class="right hide-on-med-and-down">
                     <li>
                         <a class="active" href="index.html">Home</a>
                     </li>
@@ -35,21 +35,8 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-
-            <ul class="sidenav" id="mobile-demo">
-            <li>
-                <a class="active" href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
             </div>
         </nav>
-       
 
         <main class="container">
             <div class="row">
@@ -57,41 +44,41 @@
                     <div class="card">
                         <div class="card-heading">Contact</div>
                         <div id="form" class="card-content">
-                                <form action="form-to-email.php" method="post" name="myemailform" >
+                            <form action="form-to-email.php" method="post" name="myemailform">
 
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" placeholder="Your name..">
-                                    <br>
-                                    <br>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name..">
+                                <br>
+                                <br>
 
-                                    <label for="email">Email</label>
-                                    <input type="text" id="email" name="email" placeholder="Your email..">
-                                    <br>
-                                    <br>
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Your email..">
+                                <br>
+                                <br>
 
-                                    <label for="message">Message</label>
-                                    <textarea id="message" name="message" placeholder="Write something.."></textarea>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Write something.."></textarea>
 
-                                    <a class="waves-effect waves-light btn" href="">button</a>
-                                </form>
-                            </div>
+                                <a class="waves-effect waves-light btn" href="">button</a>
+                            </form>
                         </div>
                     </div>
-                
+                </div>
+
                 <div class="col s12 m6">
                     <div class="card medium">
                         <div class="card-heading">Connect</div>
                         <div id="social" class="card-content">
                             <a href="https://stackoverflow.com/users/9057301/pampelk">
-                                <img class="responsive-image" src=".\assets\if_1-04_2308535.png" alt="boximage" height="110" width="110">
+                                <img class="responsive-image" src=".\assets\if_1-04_2308535.png" alt="boximage" height="100" width="110">
                             </a>
 
                             <a href="https://www.linkedin.com/in/pam-pelkola-154066121/">
-                                <img class="responsive-image" src=".\assets\if_1-08_2299376.png" alt "boximage" height="110" width="110">
+                                <img class="responsive-image" src=".\assets\if_1-08_2299376.png" alt "boximage" height="100" width="110">
                             </a>
 
                             <a href="https://github.com/Pamelapelkola">
-                                <img class="responsive-image" src=".\assets\if_social_github_710296.png" alt="boximage" height="110" width="110">
+                                <img class="responsive-image" src=".\assets\if_social_github_710296.png" alt="boximage" height="100" width="110">
                             </a>
                         </div>
                     </div>
@@ -103,11 +90,11 @@
         <footer class="footer navbar-fixed-bottom">
             <p>Copyright 2018 Pamela Pelkola</p>
         </footer>
-<script>
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-</script>
+        <script>
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+            });
+        </script>
 </body>
 
 </html>
