@@ -26,75 +26,76 @@
 
                 <ul id="nav-mobile" class="menu" class="right hide-on-med-and-down">
                     <li>
-                        <a class="active" href="index.html">Home</a>
+                        <a class="active z-depth-3" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">Portfolio</a>
+                        <a class="z-depth-3" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="z-depth-3">
                         <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
+    </div>
 
-        <main class="container">
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-heading">Contact</div>
-                        <div id="form" class="card-content">
-                            <form action="form-to-email.php" method="post" name="myemailform">
+    <main class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-heading">Contact</div>
+                    <div id="form" class="card-content">
+                        <form action="form-to-email.php" method="post" name="myemailform">
 
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="Your name..">
-                                <br>
-                                <br>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                            <br>
+                            <br>
 
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email" placeholder="Your email..">
-                                <br>
-                                <br>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email..">
+                            <br>
+                            <br>
 
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" placeholder="Write something.."></textarea>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write something.."></textarea>
 
-                                <a class="waves-effect waves-light btn" href="">button</a>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6">
-                    <div class="card medium">
-                        <div class="card-heading">Connect</div>
-                        <div id="social" class="card-content">
-                            <a href="https://stackoverflow.com/users/9057301/pampelk">
-                                <img class="responsive-image" src=".\assets\if_1-04_2308535.png" alt="boximage" height="100" width="110">
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/pam-pelkola-154066121/">
-                                <img class="responsive-image" src=".\assets\if_1-08_2299376.png" alt "boximage" height="100" width="110">
-                            </a>
-
-                            <a href="https://github.com/Pamelapelkola">
-                                <img class="responsive-image" src=".\assets\if_social_github_710296.png" alt="boximage" height="100" width="110">
-                            </a>
-                        </div>
+                            <a class="waves-effect waves-light btn" href="">button</a>
+                        </form>
                     </div>
                 </div>
             </div>
-        </main>
+
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-heading">Connect</div>
+                    <div class="card-content">
+                        <a href="https://stackoverflow.com/users/9057301/pampelk">
+                            <img class="responsive-image" src=".\assets\if_1-04_2308535.png" alt="boximage" height="120" width="110">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/pam-pelkola-154066121/">
+                            <img class="responsive-image" src=".\assets\if_1-08_2299376.png" alt "boximage" height="120" width="110">
+                        </a>
+
+                        <a href="https://github.com/Pamelapelkola">
+                            <img class="responsive-image" src=".\assets\if_social_github_710296.png" alt="boximage" height="120" width="110">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
-        <footer class="footer navbar-fixed-bottom">
-            <p>Copyright 2018 Pamela Pelkola</p>
-        </footer>
-        <script>
-            $(document).ready(function () {
-                $('.sidenav').sidenav();
-            });
-        </script>
+    <footer class="footer navbar-fixed-bottom">
+        <p>Copyright 2018 Pamela Pelkola</p>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
 </body>
 
 </html>
